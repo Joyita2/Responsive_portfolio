@@ -1,0 +1,163 @@
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+
+  .header_text {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+}
+.header_text h2 {
+    font-size: 36px;
+}
+.header_text p {
+    font-size: 32px;
+}
+.abt_me_content .text2 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .suggest h3 {
+    margin-left: 28px;
+  }
+ 
+.thumb {
+    text-align: center;
+    margin-left: 187px;
+  }
+  .thumb1 p {
+    text-align: left;
+    font-size: 21px;
+  }
+
+  .suggest {
+    width: 100%;
+  }
+.counter {
+    padding-left: 82px;
+  }
+
+  .testimonial {
+    padding: 10px 0;
+  }
+
+.left {
+    margin-right: 10px;
+    padding-right: 10px;
+    margin-left: -10px;
+}
+
+.contact_form {
+    width: 100%;
+    margin: 10px 0 10px 131px;
+    padding-top: 10px;
+}
+.middle {
+    margin-right: 35px;
+}
+
+.contact_form textarea {
+  padding-right: 10px;
+}
+.copy {
+    font-size: 12px;
+    margin-top: 23px;
+    margin-left: -220px;
+}
+.title {
+    padding-top: 38px;
+}
+.footer {
+    height: 80vh;
+    padding-top: 30px;
+  }
+  .footer_text h3 {
+    font-size: 25px;
+}
+  }  
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 560px) {
+  
+  /* CSS */
+
+ .header_text {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 28%;
+    left: 15%;
+}
+.abt_me_content .text2 {
+    font-size: 21px;
+    /* margin-left: 0; */
+    width: 100%;
+    text-align: justify;
+}
+.abt_me_content p {
+  text-align: justify;
+}
+
+ .abt_me_content .social {
+    text-align: left;
+    margin-left: 0;
+}
+.abt_me_content .social i {
+    margin-right: 23px;
+  }
+  .abt_me_content .btn {
+    padding: 18px 47px;
+    font-size: 18px;
+    margin-left: -21px;
+}
+.thumb {
+    width: 100%;
+}
+
+.suggest h3 {
+    font-size: 25px;
+    margin-left: 26px;
+    letter-spacing: 1px;
+    width: 100%;
+}
+html,body{
+    overflow-x: hidden;
+}
+
+.contact_form {
+    width: 100%;
+    margin-left: 54px;
+}
+
+.contact_form textarea {
+    width: 68%;
+}
+
+.contact_form .footer_btn {
+    padding: 10px 57px;
+}
+
+.copy {
+    margin-left: -93px;
+}
+.testimonial{
+  display: none;
+}
+.footer_text h3 {
+    font-size: 26px;
+
+}
+}
